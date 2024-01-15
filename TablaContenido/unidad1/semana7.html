@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio OsorioJc</title>
+    <link rel="shortcut icon" href="img/icono-07.png">
+    <link rel="stylesheet" href="/TablaContenido/estiloSemana.css">
+
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <section class="contenedor-header">
+        <header >
+            <div class="logo">
+                <img src="/img/iconoJc-01.png" alt="">
+            </div>
+    
+            <nav id="nav">
+                <div class="menu">
+                    <ul>
+                        <li class="open_submenu">
+                            <a href="/index.html">
+                                BIENVENIDA E INTRODUCCIÓN
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                   
+                                </ul>
+                            </div>
+                        </li>
+            
+                        <li class="open_submenu">
+                            <a href="/TablaContenido/indexContenido.html">
+                               TABLA DE CONTENIDO
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="reflexion.html#unidad7">UNIDAD 1</a></li>
+                                    <li><a href="reflexion.html#unidad8">UNIDAD 2</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="open_submenu">
+                            <a href="/InformacionSobreMi/indexSobreMi.html">
+                                INFORMACIÓN SOBRE MI
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="open_submenu">
+                            <a href="/TrabajosRealizados/indexTrabajoRealizados.html">
+                                TRABAJOS REALIZADOS
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="open_submenu">
+                            <a href="/Conclusion/indexConclusion.html">
+                                CONCLUSIÓN
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="open_submenu">
+                            <a href="/Reflexion/indexReflexion.html">
+                                REFLEXIÓN Y BIBLIOGRAFÍA
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+        
+                    </ul>
+                </div>
+                
+            </nav>
+    
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    
+        </header>
+    </section>
+
+    <!-- TABLA DE CONTENIDO -->
+    <section id="tablacontenido" class="tablacontenido">
+        <div class="contenido-seccion">
+            <h2>Unidad 1</h2>
+            
+            <div class="unidad1" id="unidad1">
+
+                <div id="semana7" class="semana7">      
+                    <span class="Semana">Semana 7</span>
+                    <div class="columnas">
+                        <div class="columna1">
+                    <h4>Temas:</h4>
+                    <ul>
+                        <li>Enfoque en el uso de Hooks en React.</li>
+                        <li>Exploración de los Hooks predefinidos, como `useState`, `useEffect`, `useContext`, `useRef`, `useReducer`, `useCallback`, y `useMemo`</li>
+                        <li>Creación y aplicación de Hooks personalizados</li>
+                        <li>valuación de habilidades en el Laboratorio 09 como parte de la Evaluación de Logro 01</li>
+                    </ul>
+                        </div>
+                        <div class="columna2">  
+                    <h4>Definiciones:</h4>
+                        <p>
+                            <span>1. Hooks en React:</span> Son funciones que permiten a los componentes funcionales de React tener estado y efectos secundarios. Son una característica fundamental para la gestión de la lógica en componentes funcionales.
+                            <br><span>2. useState</span> Un hook de React que permite gestionar estados locales en componentes funcionales. Permite a los componentes funcionales mantener y actualizar su estado interno.
+                            <br><span>3. useEffect:</span> Un hook de React que maneja efectos secundarios en componentes funcionales. Se utiliza para realizar tareas como la suscripción a datos externos o la manipulación del DOM después de que el componente se haya renderizado.
+                            <br><span>4. useContext:</span> Un hook que permite acceder al contexto global de la aplicación en componentes de React. Facilita la transmisión de datos y estado a través de múltiples componentes sin la necesidad de pasar props manualmente.
+                            <br><span>5. useRef:</span> Un hook que permite interactuar con elementos del DOM directamente. Se utiliza para acceder a nodos del DOM y mantener referencias a elementos dentro de componentes de React.
+                            <br><span>6. useReducer:</span> Un hook que maneja estados complejos con una lógica más estructurada. Se asemeja a Redux y se utiliza cuando el estado de un componente es más complejo y requiere una lógica más detallada para actualizarse.
+                            <br><span>7. useCallback:</span> Un hook que optimiza el rendimiento al memoizar funciones. Se utiliza para evitar la recreación innecesaria de funciones en componentes, lo que puede mejorar el rendimiento en aplicaciones de React.
+                            <br><span>8. useMemo:</span> Un hook para optimizar cálculos costosos en componentes funcionales. Memoiza el resultado de una función costosa para evitar cálculos repetidos cuando las dependencias no han cambiado.
+                        </p>
+                        <h4>Procedimiento:</h4>
+                        <p>
+                            ° El análisis y entendimiento de los elementos fundamentales vinculados a los Hooks en React.
+                            <br>° Utilización de los Hooks predeterminados en ejemplos de proyectos con el fin de ponerlos en práctica.
+                            <br>° Elaboración de Hooks personalizados diseñados para atender requerimientos específicos dentro de las aplicaciones.
+                            <br>° Involucramiento en el Laboratorio 09 como un componente integral de la Evaluación de Logro 01, donde se pusieron en práctica los conocimientos adquiridos.
+                        </p>
+                        <h4>Resultado:</h4>
+                        <p>
+                        ° Desarrollaron un alto nivel de competencia en la implementación de Hooks en React, lo que les otorgó una mayor destreza en la administración de estados y efectos en aplicaciones.
+                        <br>° Se logró una aplicación exitosa de los principios subyacentes de `useState`, `useEffect`, `useContext`, `useRef`, `useReducer`, `useCallback`, y `useMemo` mediante ejemplos prácticos, consolidando así su comprensión y habilidad para utilizar estas herramientas en proyectos reales.
+                        <br>° La creación de Hooks personalizados se reveló como una estrategia altamente efectiva para abordar desafíos específicos de manera más eficaz y específica.
+                        <br>° Además, en la Evaluación de Logro 01 realizada en el Laboratorio 09, los participantes demostraron una sólida comprensión de los Hooks y su aplicación, lo que los dejó preparados de manera óptima para enfrentar con confianza los desafíos que surgen en el desarrollo de aplicaciones en React.
+                        </p>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- BOTON  -->
+    
+    <section id="botonSemana" class="botonSemana">
+
+        <a href="semana6.html">
+            <button id="botonRegresar" class="botonRegresar">
+                Anterior 
+            </button>
+        </a>
+        <a href="/TablaContenido/indexContenido.html">
+            <button id="botonRegresar" class="botonRegresar">
+                Tabla de Contenido
+            </button>
+        </a>
+        <a href="/TablaContenido/unidad2/semana.html">
+            <button id="botonRegresar" class="botonRegresar">
+                Siguiente
+            </button>
+        </a>
+    </section>
+    <!-- footer -->
+    <footer>
+        
+        <a href="semana.html#tablacontenido" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        
+        <div class="legal">
+            <ul>
+                
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100089375895260&mibextid=b06tZ0" style="--clr0: #4267b2; --clr1: #283e6b; --clr2: #5a7cc2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/OsorioJc-696" style="--clr0: #959595; --clr1: #121111; --clr2: #1e1e1e">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jose-jhunior-osorio-cayetano-38335928a" style="--clr0: #0077b5; --clr1: #005082; --clr2: #008cc9">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/1234567890" style="--clr0: #25D366; --clr1: #0c8318; --clr2: #1de968">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://myaccount.microsoft.com/?ref=MeControl" style="--clr0: #e4c00d; --clr1: #089c55; --clr2: #d62d20">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
